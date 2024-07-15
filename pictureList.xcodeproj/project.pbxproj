@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD593D6A2C45699F00BBA902 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD593D692C45699F00BBA902 /* UIColor+Extention.swift */; };
 		BD88DDFA2C07C9EA00A88B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88DDF92C07C9EA00A88B3B /* AppDelegate.swift */; };
 		BD88DDFC2C07C9EA00A88B3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88DDFB2C07C9EA00A88B3B /* SceneDelegate.swift */; };
 		BD88DDFE2C07C9EA00A88B3B /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88DDFD2C07C9EA00A88B3B /* ImagesListViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD593D692C45699F00BBA902 /* UIColor+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
 		BD88DDF62C07C9EA00A88B3B /* pictureList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pictureList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD88DDF92C07C9EA00A88B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD88DDFB2C07C9EA00A88B3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD593D682C45696900BBA902 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BD593D692C45699F00BBA902 /* UIColor+Extention.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		BD88DDED2C07C9EA00A88B3B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		BD88DDF82C07C9EA00A88B3B /* pictureList */ = {
 			isa = PBXGroup;
 			children = (
+				BD593D682C45696900BBA902 /* Helpers */,
 				BDE0FB812C415BE600138935 /* ImagesList */,
 				BD88DDF92C07C9EA00A88B3B /* AppDelegate.swift */,
 				BD88DDFB2C07C9EA00A88B3B /* SceneDelegate.swift */,
@@ -151,6 +162,7 @@
 			files = (
 				BD88DDFE2C07C9EA00A88B3B /* ImagesListViewController.swift in Sources */,
 				BDE0FB802C415BAB00138935 /* ImagesListCell.swift in Sources */,
+				BD593D6A2C45699F00BBA902 /* UIColor+Extention.swift in Sources */,
 				BD88DDFA2C07C9EA00A88B3B /* AppDelegate.swift in Sources */,
 				BD88DDFC2C07C9EA00A88B3B /* SceneDelegate.swift in Sources */,
 			);
